@@ -84,7 +84,8 @@ var favorites = [
   ],
   [ "Random",
     [
-      ["reddit", "https://www.reddit.com", "rd"]
+      ["reddit", "https://www.reddit.com", "rd"],
+      ["github", "https://www.github.com", "gh"]
     ]
   ],
   [ "Others",
