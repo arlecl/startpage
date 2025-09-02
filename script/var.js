@@ -96,7 +96,11 @@ var favorites = [
   ]
 ];
 var feeds = [
-  ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
+  ["Hacker News", "https://news.ycombinator.com/rss"],
+  ["TechCrunch", "http://feeds.feedburner.com/TechCrunch/"],
+  ["The Verge", "https://www.theverge.com/rss/index.xml"],
+  ["Wired", "https://www.wired.com/feed/rss"],
+  ["Ars Technica", "http://feeds.arstechnica.com/arstechnica/index/"],
+  ["Google Tech News", "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY"],
+  ["Reddit Technology", "https://www.reddit.com/r/technology/.rss"]
 ];
