@@ -49,7 +49,7 @@ var favorites = [
     [
       ["whatsapp" , "https://web.whatsapp.com/", "wa"],
       ["hangouts" , "http://hangouts.google.com", "hang"],
-      ["facebook" , "https://www.facebook.com/" , "fb"],
+      ["google" , "https://www.google.com/" , "go"],
       ["twitter" , "https://twitter.com/", "twi"]
     ]
   ],
