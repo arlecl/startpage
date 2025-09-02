@@ -3,7 +3,7 @@
 
 var username = "Arnoud"
 var clientid = "be212a58528168962a39c64052c1d88e";
-var redirecturi = "http://localhost:8002/callback.html";
+var redirecturi = "https://arnoudleclercq.github.io/startpage/callback.html";
 var locations = [
   "784201",
   "784302"
@@ -42,6 +42,7 @@ var favorites = [
       ["ionbiz" , "https://ebo.ionbiz.com/", "ion"],
       ["confluence" , "https://confluence.ebo-enterprises.com/", "con"],
       ["omnitracker" , "https://serviceportal.ebo-enterprises.com/internal20/#/login?locale=nl-be", "om"],
+      ["odoo" , "https://erp.ebo-enterprises.com/web#cids=1&home=", "od"],
       ["odoo" , "https://erp.ebo-enterprises.com/web#cids=1&home=", "od"]
     ]
   ],
