@@ -417,30 +417,24 @@ function initGreetings() {
 
 // Init the weather part and add the weather options
 function initWeather() {
-  locations.forEach(function(i, e) {
-    $.simpleWeather({
-      zipcode: '',
-      woeid: locations[e],
-      location: '',
-      unit: 'c',
-      success: function(weather) {
-        var weatherObj = '<p class="weather" id="' + locations[e] + '">' +
-          '<span class="weather-location"></span><br>' +
-          '<span class="weather-icon"></span>' +
-          '<span class="weather-temperature"></span> <br>' +
-          '<span class="weather-description"></span>' +
-          '</p>';
+  var apiKey = '5469708edd5bd3187e9154fcda5d3903';
+  var cities = ['Gent', 'London', 'New York']; // Example cities
 
+  cities.forEach(function(city) {
+    loadWeather(city, apiKey,
+      function(weather) {
+        var weatherObj = '<p class="weather" id="' + city + '">' +
+          '<span class="weather-location">' + weather.city + ', ' + weather.country + '</span><br>' +
+          '<span class="weather-icon"><img src="https://openweathermap.org/img/wn/' + weather.code + '@2x.png" /></span>' +
+          '<span class="weather-temperature">' + weather.temp + '&deg;' + weather.units.temp + '</span> <br>' +
+          '<span class="weather-description">' + weather.description + '</span>' +
+          '</p>';
         $("#weather-board").append(weatherObj);
-        $("#" + locations[e] + " .weather-location").html(weather.city + ", " + weather.region);
-        $("#" + locations[e] + " .weather-icon").html('<i class="icon-' + weather.code + '"></i>');
-        $("#" + locations[e] + " .weather-temperature").html(weather.temp + '&deg;' + weather.units.temp);
-        $("#" + locations[e] + " .weather-description").html(weather.currently);
       },
-      error: function(error) {
-        $("#" + locations[e] + "").html('<p>' + error + '</p>');
+      function(errorMsg) {
+        $("#weather-board").append('<p>' + errorMsg + '</p>');
       }
-    });
+    );
   });
 }
 
