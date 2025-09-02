@@ -418,7 +418,7 @@ function initGreetings() {
 // Init the weather part and add the weather options
 function initWeather() {
   var apiKey = '5469708edd5bd3187e9154fcda5d3903';
-  var cities = ['Gent', 'Oostende']; // Example cities
+  var cities = ['Oostende', 'Evergem']; // Example cities
 
   cities.forEach(function(city) {
     loadWeather(city, apiKey,
