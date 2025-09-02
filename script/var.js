@@ -96,11 +96,11 @@ var favorites = [
   ]
 ];
 var feeds = [
-  ["Hacker News", "https://news.ycombinator.com/rss"],
-  ["TechCrunch", "http://feeds.feedburner.com/TechCrunch/"],
-  ["The Verge", "https://www.theverge.com/rss/index.xml"],
-  ["Wired", "https://www.wired.com/feed/rss"],
-  ["Ars Technica", "http://feeds.arstechnica.com/arstechnica/index/"],
+ // ["Hacker News", "https://news.ycombinator.com/rss"],
+ // ["TechCrunch", "http://feeds.feedburner.com/TechCrunch/"],
+ // ["The Verge", "https://www.theverge.com/rss/index.xml"],
+ // ["Wired", "https://www.wired.com/feed/rss"],
+ // ["Ars Technica", "http://feeds.arstechnica.com/arstechnica/index/"],
   ["Google Tech News", "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY"],
-  ["Reddit Technology", "https://www.reddit.com/r/technology/.rss"]
+ // ["Reddit Technology", "https://www.reddit.com/r/technology/.rss"]
 ];
