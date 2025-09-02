@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Arnoud"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
@@ -39,10 +39,14 @@ var searchs = [
 var favorites = [
   [ "Work",
     [
-      ["cpnv" , "http://intranet.cpnv.ch/", "cpnv"],
-      ["github" , "https://github.com/", "gh"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
-      ["bitbucket" , "http://bitbucket.org", "bb"]
+      ["ionbiz" , "https://ebo.ionbiz.com/", "ion"],
+      ["confluence" , "https://confluence.ebo-enterprises.com/", "con"],
+      ["omnitracker" , "https://serviceportal.ebo-enterprises.com/internal20/#/login?locale=nl-be", "om"],
+      ["odoo" , "https://erp.ebo-enterprises.com/web#cids=1&home=", "od"]
+      ["ionbiz" , "http://intranet.cpnv.ch/", "cpnv"],
+      ["confluence" , "https://github.com/", "gh"],
+      ["omnitracker" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
+      ["odoo" , "http://bitbucket.org", "bb"]
     ]
   ],
   [ "Social",
