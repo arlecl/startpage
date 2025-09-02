@@ -43,10 +43,6 @@ var favorites = [
       ["confluence" , "https://confluence.ebo-enterprises.com/", "con"],
       ["omnitracker" , "https://serviceportal.ebo-enterprises.com/internal20/#/login?locale=nl-be", "om"],
       ["odoo" , "https://erp.ebo-enterprises.com/web#cids=1&home=", "od"]
-      ["ionbiz" , "http://intranet.cpnv.ch/", "cpnv"],
-      ["confluence" , "https://github.com/", "gh"],
-      ["omnitracker" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
-      ["odoo" , "http://bitbucket.org", "bb"]
     ]
   ],
   [ "Social",
