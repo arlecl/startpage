@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Arnoud"
+var username = "Arnoud";
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "https://arnoudleclercq.github.io/startpage/callback.html";
 var locations = [
@@ -53,7 +53,6 @@ var favorites = [
       ["smappee", "https://dashboard.smappee.net/login", "sm"],
       ["powerbi projects", "https://app.powerbi.com/groups/me/reports/08ba9129-1500-4fc5-a93d-8503f3d77cde/e465fd1475515705d822?ctid=24133f96-2b38-4360-9546-979fc3caa9d7&experience=power-bi", "bip"],
       ["powerbi project orders", "https://app.powerbi.com/groups/me/apps/0632e278-f892-4a75-8600-021f477a3bc5/reports/1276306e-9e2b-4848-b5ea-94542a9d89a7/ReportSection984ddc7aee93c947e5c7?experience=power-bi", "bio"]
-]
     ]
   ],
   [ "Social",
