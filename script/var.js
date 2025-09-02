@@ -10,6 +10,7 @@ var locations = [
 ];
 var images = [
   "1412446496031.jpg",
+  "wallpaper.jpg",
 //  "1417804954510.jpg",
 //  "1422771896804.jpg",
 //  "1424655132831.jpg",
