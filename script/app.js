@@ -46,15 +46,29 @@ function init() {
 }
 
 function initRss() {
+  $('#rss-board').empty(); // clear previous output
   $(feeds).each(function(index, feed) {
+    // Create a unique container for each feed
+    let containerId = 'feed-' + index;
     $('#rss-board').append("<p>"+feed[0]+"</p>");
-    $('#rss-board').append("<div id='"+index+"'></div");
-    $('#rss-board #'+index).FeedEk({
-      FeedUrl: feed[1],
-      MaxCount: 5,
-      DateFormat: 'L',
-      DateFormatLang:'en'
+    $('#rss-board').append("<div id='"+containerId+"'></div>");
+
+    $.getJSON('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed[1]), function(data) {
+      if (!data || !data.items) {
+        $('#' + containerId).html('<p>Feed unavailable.</p>');
+        return;
+      }
+      let html = '<ul>';
+      data.items.forEach(function(item) {
+        html += `<li>
+          <div class="itemTitle"><a href="${item.link}" target="_blank">${item.title}</a></div>
+          <div class="itemDate">${item.pubDate}</div>
+          <div class="itemContent">${item.description}</div>
+        </li>`;
       });
+      html += '</ul>';
+      $('#' + containerId).html(html);
+    });
   });
 }
 
