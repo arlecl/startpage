@@ -38,6 +38,16 @@ var searchs = [
   ["!w", "https://en.wikipedia.org/w/index.php?search="]
 ];
 var favorites = [
+
+  [ "Social",
+    [
+      ["gmail", "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox", "gmail"],
+      ["maps", "https://www.google.com/maps", "maps"],
+      ["linkedin", "https://www.linkedin.com/feed/", "ln"],
+      ["youtube", "https://www.youtube.com", "yt"]
+    ]
+  ],
+  
   [ "Work",
     [
       
@@ -46,7 +56,7 @@ var favorites = [
       ["omnitracker", "https://serviceportal.ebo-enterprises.com/internal20/#/login?locale=nl-be", "omni"],
       ["odoo", "https://erp.ebo-enterprises.com/web#cids=1&home=", "od"],
       ["odoo - bills", "https://erp.ebo-enterprises.com/web#action=199&model=account.move&view_type=list&menu_id=509&cids=1", "odb"],
-      ["payflip", "https://app.payflip.be/benefits", "payflip"],
+      ["payflip", "https://app.payflip.be/benefits", "pf"],
       ["officient", "https://selfservice.officient.io/login", "of"],
       ["superset", "https://10.10.97.113/superset/welcome/", "ss"],
       ["gitlab", "https://scm.ebo-enterprises.com/", "gitl"],
@@ -56,14 +66,7 @@ var favorites = [
       ["powerbi project orders", "https://app.powerbi.com/groups/me/apps/0632e278-f892-4a75-8600-021f477a3bc5/reports/1276306e-9e2b-4848-b5ea-94542a9d89a7/ReportSection984ddc7aee93c947e5c7?experience=power-bi", "bio"]
     ]
   ],
-  [ "Social",
-    [
-      ["gmail", "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox", "gmail"],
-      ["maps", "https://www.google.com/maps", "maps"],
-      ["linkedin", "https://www.linkedin.com/feed/", "ln"],
-      ["youtube", "https://www.youtube.com", "yt"]
-    ]
-  ],
+  
   [ "Tools",
     [
       ["chatgpt", "https://chatgpt.com/", "gpt"],
@@ -71,8 +74,8 @@ var favorites = [
       ["midjourney", "https://www.bing.com/images/create?", "mj"],
       ["ilovepdf", "https://www.ilovepdf.com/", "pdf"],
       ["geo antennes", "https://www.geopunt.be/?service=https%3A%2F%2Fwww.mercator.vlaanderen.be%2Fraadpleegdienstenmercatorpubliek%2Fows%3Flayers%3Dus%3Aus_zndant_pnt", "geo"],
-      ["marinetraffic", "https://www.marinetraffic.com/en/ais/home/centerx:3.547/centery:51.430/zoom:13", "marine"],
-      ["offshore map", "https://map.4coffshore.com/offshorewind/", "offshore"],
+      ["marinetraffic", "https://www.marinetraffic.com/en/ais/home/centerx:3.547/centery:51.430/zoom:13", "mt"],
+      ["offshore map", "https://map.4coffshore.com/offshorewind/", "off"],
       ["no fly zones map", "https://apps.geocortex.com/webviewer/?app=1062438763fd493699b4857b9872c6c4&locale=en", "nofly"]
     ]
   ],
@@ -89,10 +92,10 @@ var favorites = [
       ["github", "https://www.github.com", "gh"]
     ]
   ],
-  [ "Others",
+  [ "Cybersec",
     [
-      ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
+      ["tryhackme", "https://tryhackme.com/", "thm"],
+      ["cisco academy", "https://www.netacad.com/", "ca"]
     ]
   ]
 ];
