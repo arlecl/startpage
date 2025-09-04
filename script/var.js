@@ -33,7 +33,7 @@ var images = [
 //  "1450074394745.jpg"
 ];
 var searchs = [
-  ["!g", "https://www.google.ch/#q="],
+  ["!g", "https://www.google.com/search?q="],
   ["!y", "https://www.youtube.com/results?search_query="],
   ["!w", "https://en.wikipedia.org/w/index.php?search="]
 ];
