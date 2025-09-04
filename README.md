@@ -1,19 +1,15 @@
 # Startpage [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
-## The History/Reasons of the project
+## Intro
 
-This is a small project over 2 weeks created for 2 modules for my school:
-* PRW3 (The API parts of the project)
-* AWA1 (The animation and design of the project)
+This is a small project over where the main effort goes to Cel51.
+I Forked the main elements of of his branch.
  
-I had another startpage previously, downloaded from /wg/ and slightly modified but it had some bugs. So one year after I had the idea to create a new one that fits me.
+This startpage is mainly to keep a clean overview instead of a bookmark bar while uncluding some nice gadgets such as weather, clock, search functionality, news,...
 
-My Old Homepage
-![Old Homepage](http://i.imgur.com/OYN1EzQ.png "My old homepage")
-
-My New Homepage
-![New Homepage](http://i.imgur.com/VJqQdbA.png "My new homepage")
-
+My Startpage found at arnoudleclercq.github.io/startpage
+![New Homepage](http://i.imgur.com/EMwUem0 "My new homepage")
+https://imgur.com/EMwUem0
 You can see the difference there, I think.
 
 ## The features in the new Homepage
