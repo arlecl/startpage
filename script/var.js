@@ -83,7 +83,9 @@ var favorites = [
     [
       ["omgevingsloket", "https://omgevingsloket.omgeving.vlaanderen.be/#PAGE_PROJECTS_OVERVIEW", "loket"],
       ["zendantennes", "https://zendantennes.omgeving.vlaanderen.be/#/dossiers", "zend"],
-      ["eu portaal", "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43251567/101095135/CEF2027", "eu"]
+      ["eu portaal", "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/projects-details/43251567/101095135/CEF2027", "eu"],
+      ["eu amendement flow", "https://webgate.ec.europa.eu/funding-tenders-opportunities/display/IT/Amendments", "amf"],
+      ["eu amendement guide", "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/amendment-guide_en.pdf", "amg"]
     ]
   ],
   [ "Random",
