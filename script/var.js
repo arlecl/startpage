@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Arnoud";
+var username = "FUN";
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "https://arnoudleclercq.github.io/startpage/callback.html";
 var locations = [
