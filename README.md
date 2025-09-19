@@ -7,7 +7,7 @@ I Forked the main elements of of his branch.
  
 This startpage is mainly to keep a clean overview instead of a bookmark bar while uncluding some nice gadgets such as weather, clock, search functionality, news,...
 
-My Startpage found at arnoudleclercq.github.io/startpage.
+My Startpage found at arlecl.github.io/startpage.
 
 Screenshot:
 
