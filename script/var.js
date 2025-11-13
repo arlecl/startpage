@@ -95,10 +95,12 @@ var favorites = [
       ["github", "https://www.github.com", "gh"]
     ]
   ],
-  [ "Cybersec",
+  [ "Cybersec / Clients",
     [
       ["tryhackme", "https://tryhackme.com/", "thm"],
-      ["cisco academy", "https://www.netacad.com/", "ca"]
+      ["cisco academy", "https://www.netacad.com/", "ca"],
+      ["Amprion Jira", "https://amprion.atlassian.net/jira/software/c/projects/OIHSYS/boards/338", "ampj"],
+      ["Parkwind Sharepoint", "https://parkwind.sharepoint.com/sites/SNII_ELC/Exchange_with_eBO?xsdata=MDV8MDJ8QXJub3VkLkxlY2xlcmNxQGViby1lbnRlcnByaXNlcy5jb218NWY0YWQ0ODAzMjU5NGUwZWQzNWEwOGRlMWI3OGUzNTh8MjQxMzNmOTYyYjM4NDM2MDk1NDY5NzlmYzNjYWE5ZDd8MHwwfDYzODk3ODQwMzE5NTk1NTMyMnxVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=MmlueXdzYVJIZG9uV1N3bG1hMk1oNHZFdHhRWjloOU1hWlczYXJIdE50Yz0%3d&clickparams=eyAiWC1BcHBOYW1lIiA6ICJNaWNyb3NvZnQgT3V0bG9vayIsICJYLUFwcFZlcnNpb24iIDogIjE2LjAuMTkxMjcuMjAzMTQiLCAiT1MiIDogIldpbmRvd3MiIH0%3d&SafelinksUrl=https%3a%2f%2fparkwind.sharepoint.com%2fsites%2fSNII_ELC%2fExchange_with_eBO", "pws"],
     ]
   ]
 ];
