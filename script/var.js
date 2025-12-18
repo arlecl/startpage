@@ -75,7 +75,8 @@ var favorites = [
       ["ilovepdf", "https://www.ilovepdf.com/", "pdf"],
       ["geo antennes", "https://www.geopunt.be/?service=https%3A%2F%2Fwww.mercator.vlaanderen.be%2Fraadpleegdienstenmercatorpubliek%2Fows%3Flayers%3Dus%3Aus_zndant_pnt", "geo"],
       ["marinetraffic", "https://www.marinetraffic.com/en/ais/home/centerx:3.547/centery:51.430/zoom:13", "mt"],
-      ["offshore map", "https://map.4coffshore.com/offshorewind/", "off"],
+      ["offshore map", "https://map.4coffshore.com/offshorewind/", "off"], 
+      ["line of sight calc", "https://support.saftehnika.com/en/pathcalculator", "los"],
       ["no fly zones map", "https://apps.geocortex.com/webviewer/?app=1062438763fd493699b4857b9872c6c4&locale=en", "nofly"]
     ]
   ],
