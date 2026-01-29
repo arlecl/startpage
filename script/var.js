@@ -103,6 +103,7 @@ var favorites = [
       ["Amprion Jira", "https://amprion.atlassian.net/jira/software/c/projects/OIHSYS/boards/338", "ampj"],
       ["Pkwnd Sharepoint", "https://parkwind.sharepoint.com/sites/SNII_ELC/Exchange_with_eBO?xsdata=MDV8MDJ8QXJub3VkLkxlY2xlcmNxQGViby1lbnRlcnByaXNlcy5jb218NWY0YWQ0ODAzMjU5NGUwZWQzNWEwOGRlMWI3OGUzNTh8MjQxMzNmOTYyYjM4NDM2MDk1NDY5NzlmYzNjYWE5ZDd8MHwwfDYzODk3ODQwMzE5NTk1NTMyMnxVbmtub3dufFRXRnBiR1pzYjNkOGV5SkZiWEIwZVUxaGNHa2lPblJ5ZFdVc0lsWWlPaUl3TGpBdU1EQXdNQ0lzSWxBaU9pSlhhVzR6TWlJc0lrRk9Jam9pVFdGcGJDSXNJbGRVSWpveWZRPT18MHx8fA%3d%3d&sdata=MmlueXdzYVJIZG9uV1N3bG1hMk1oNHZFdHhRWjloOU1hWlczYXJIdE50Yz0%3d&clickparams=eyAiWC1BcHBOYW1lIiA6ICJNaWNyb3NvZnQgT3V0bG9vayIsICJYLUFwcFZlcnNpb24iIDogIjE2LjAuMTkxMjcuMjAzMTQiLCAiT1MiIDogIldpbmRvd3MiIH0%3d&SafelinksUrl=https%3a%2f%2fparkwind.sharepoint.com%2fsites%2fSNII_ELC%2fExchange_with_eBO", "pws"],
       ["TWP Sharepoing", "https://taeanwind.sharepoint.com/sites/Taean/Shared%20External/Forms/AllItems.aspx?csf=1&web=1&e=kAHxSb&CID=d37fc6f8%2D8538%2D4a97%2D8bb7%2D360988b4f96a&FolderCTID=0x012000B3F748F2E92F1E4A84EAF7F4D974B47F&id=%2Fsites%2FTaean%2FShared%20External%2F68%2De%2DBO", "twp"],
+      ["TWP Omega365", "https://cop.omega365.com", "twpo"],
     ]
   ]
 ];
