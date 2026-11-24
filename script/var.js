@@ -61,7 +61,7 @@ var favorites = [
       ["gitlab", "https://scm.ebo-enterprises.com/", "gitl"],
       ["sharging sessions e-BO", "https://charging-stations.ebo-enterprises.com/", "cg"],
       ["smappee", "https://dashboard.smappee.net/login", "sm"],
-      ["powerbi projects", "https://app.powerbi.com/groups/7b80fe10-ae12-4255-96ed-42150b8eb015/orgapps/4e870ffe-9cb5-4f8e-a9ff-3bf9bf7aed0d/report/aa135002-0784-433a-a334-5b6fd56a4d21/18c5d0f40c40ebc7b8de?language=en-US&experience=power-bi", "bip"],
+      ["powerbi projects", "https://app.powerbi.com/groups/7b80fe10-ae12-4255-96ed-42150b8eb015/orgapps/4e870ffe-9cb5-4f8e-a9ff-3bf9bf7aed0d/report/aa135002-0784-433a-a334-5b6fd56a4d21/e6fb2e513449a75ab534?language=en-US&experience=power-bi", "bip"],
       ["powerbi project orders", "https://app.powerbi.com/groups/me/apps/0632e278-f892-4a75-8600-021f477a3bc5/reports/1276306e-9e2b-4848-b5ea-94542a9d89a7/ReportSection984ddc7aee93c947e5c7?experience=power-bi", "bio"]
     ]
   ],
